@@ -1,0 +1,20 @@
+*window object
+->window object represents a window in browser.
+->an object of browser is creat automatically by the browser
+->window object includes global object such as var and it also includes functions
+example:
+->
+<script type = "text/javascript">
+function msg(){
+    alert("hey this is alert msg");
+}
+</script>
+<input type = "button" value = "click"onclick="msg()"/>
+
+
+*document object
+->the document object represents the whole html document.
+->when html documentis loaded in the browser it becomes a document object
+->The DOM manipulation tool offers methods to access and manipulate the structure and content of a document.
+->example methods
+getElementById(), querySelector(), createElement(), and innerHTM
